@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Infinity Web</title>
-    <script src="https://kit.fontawesome.com/042829b304.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="./nav.js" defer></script>
-  </head>
-  <body class="flex flex-col min-h-screen max-w-screen">
-    <nav class="flex-intial flex bg-green-400 h-16" >
-      <div class="menuwrap flex-initial py-4 text-3xl">
-        <div class="menuburger"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity Web</title>
+  <!-- <script src="https://kit.fontawesome.com/042829b304.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./main.css" />
+  <script src="./nav.js" defer></script>
+</head>
+
+<body class="flex flex-col min-h-screen max-w-screen">
+  <nav class="flex-intial flex bg-green-400 h-12">
+    <div class="menuwrap flex-initial py-4 text-3xl">
+      <div class="menuburger"></div>
+    </div>
+    <div class="flex-initial py-2"><img class="h-10" src="./favicon.ico" alt="Infinity Web"></div>
+    <ul class="options">
+      <a href="#home">
+        <li>Home</li>
+      </a>
+      <a href="#projects">
+        <li>Projects</li>
+      </a>
+      <a href="#games">
+        <li>Games</li>
+      </a>
+      <a href="#contact">
+        <li>Contact Us</li>
+      </a>
+    </ul>
+  </nav>
+  <main class="flex-auto bg-blue-600 text-white pl-5">
+    <h1 id=home>Infinity Web</h1>
+    <h2>We make websites</h2>
+    <hr class="w-48" />
+    <h1>We are experts in:</h1>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JS</li>
       </div>
-      <div class="flex-initial py-4"><img class="h-10" src="./favicon.ico" alt="Infinity Web"></div>
-      <ul class="options">
-        <a href="#home"><li>Home</li></a>
-        <a href="#projects"><li>Projects</li></a>
-        <a href="#games"><li>Games</li></a>
-        <a href="#contact"><li>Contact Us</li></a>
-      </ul>
-      </nav>
-    <main class="flex-auto bg-blue-600 text-white pl-5">
-      <h1 id=home>Infinity Web</h1>
-      <h2>We make websites</h2>
-      <hr class="w-48" />
-      <h1>We are experts in:</h1>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JS</li>
-        </div>
-        <li>
-          MEVN Stack
-          <ul>
-            <li>MongoDB</li>
-            <li>Express</li>
-            <li>Vue.js</li>
-            <li>Node.js</li>
-          </ul>
-        </li>
-      </ul>
-      <h1>Coming Soon:</h1>
-      <ul>
-        <li>React</li>
-        <li>Angular</li>
-        <li>JQuery</li>
-        <li>Bootstrap</li>
-      </ul>
-      <div id="projects">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-      </div>
-    </main>
-    <footer class="flex-initial bg-blue-500 text-3xl bottom-0 pr-5">
-      <div id="switchparent"></div>
-      <div class="text-right">
-        <a target="_blank" href="http://github.com/modiaditya14" title="Check out my Github!">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      </footer>
-  </body>
+      <li>
+        MEVN Stack
+        <ul>
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>Vue.js</li>
+          <li>Node.js</li>
+        </ul>
+      </li>
+    </ul>
+    <h1>Coming Soon:</h1>
+    <ul>
+      <li>React</li>
+      <li>Angular</li>
+      <li>JQuery</li>
+      <li>Bootstrap</li>
+    </ul>
+    <div id="projects">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+  </main>
+  <footer class="flex-initial bg-blue-500 text-3xl bottom-0 pr-5">
+    <div id="switchparent"></div>
+    <div class="text-right">
+      <a target="_blank" href="http://github.com/modiaditya14" title="Check out my Github!">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
 </html>

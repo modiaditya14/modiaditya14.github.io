@@ -1,0 +1,15 @@
+body{
+    animation:type 1000ms ease 0ms 1 normal;
+    font-size: large;
+}
+h1 {
+    animation:type 1000ms ease 0ms 1 normal;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+@keyframes type {
+    from{
+        transform: rotate(-2deg);
+        font-size: xx-small;
+    }
+}
